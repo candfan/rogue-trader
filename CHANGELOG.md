@@ -1,1 +1,1 @@
-# Tradin
+# Trading indicator
