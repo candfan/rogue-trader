@@ -2,4 +2,4 @@
 
 ## 0.6.1
 
-* Support co
+* Support concurrency in EMA 
