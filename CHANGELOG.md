@@ -6,4 +6,4 @@
 
 ## 0.6.0
 
-* Add 
+* Add Trend indica
