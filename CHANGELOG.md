@@ -2,4 +2,5 @@
 
 ## 0.6.1
 
-* Support concurrency in EMA 
+* Support concurrency in EMA indicator
+
