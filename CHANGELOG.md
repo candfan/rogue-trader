@@ -9,3 +9,5 @@
 * Add Trend indicator
 
 ## 0.5.0
+
+* Add Volume 
