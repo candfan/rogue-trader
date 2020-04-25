@@ -10,4 +10,4 @@
 
 ## 0.5.0
 
-* Add Volume 
+* Add Volume Weighted 
