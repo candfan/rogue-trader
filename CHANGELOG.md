@@ -14,4 +14,4 @@
 
 ## 0.4.1
 
-* Add Exponential Moving Avera
+* Add Exponential Moving Average to REAMDE
