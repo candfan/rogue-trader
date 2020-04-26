@@ -12,4 +12,6 @@
 
 * Add Volume Weighted Average 
 
-## 
+## 0.4.1
+
+* Add Expon
