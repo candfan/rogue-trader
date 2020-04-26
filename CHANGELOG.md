@@ -14,4 +14,4 @@
 
 ## 0.4.1
 
-* Add Exponential Mov
+* Add Exponential Moving Avera
