@@ -10,4 +10,6 @@
 
 ## 0.5.0
 
-* Add Volume Weighted 
+* Add Volume Weighted Average 
+
+## 
