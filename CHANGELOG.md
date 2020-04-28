@@ -18,4 +18,4 @@
 
 ## 0.4.0
 
-* Ad
+* Add Exponential 
