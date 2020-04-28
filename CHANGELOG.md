@@ -15,3 +15,7 @@
 ## 0.4.1
 
 * Add Exponential Moving Average to REAMDE
+
+## 0.4.0
+
+* Ad
