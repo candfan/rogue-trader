@@ -18,4 +18,4 @@
 
 ## 0.4.0
 
-* Add Exponential Moving Ave
+* Add Exponential Moving Average ind
