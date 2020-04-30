@@ -18,4 +18,4 @@
 
 ## 0.4.0
 
-* Add Exponential 
+* Add Exponential Moving Ave
