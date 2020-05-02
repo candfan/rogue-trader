@@ -22,4 +22,6 @@
 
 ## 0.3.1
 
-* Update CH
+* Update CHANGELOG
+
+#
