@@ -26,4 +26,4 @@
 
 ## 0.3.0
 
-* Add Average 
+* Add Average Volume Ind
