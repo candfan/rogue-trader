@@ -26,4 +26,6 @@
 
 ## 0.3.0
 
-* Add Average Volume Ind
+* Add Average Volume Indicator
+
+## 0.
