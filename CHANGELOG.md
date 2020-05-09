@@ -28,4 +28,6 @@
 
 * Add Average Volume Indicator
 
-## 0.
+## 0.2.0
+
+* Add mo
