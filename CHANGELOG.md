@@ -30,4 +30,4 @@
 
 ## 0.2.0
 
-* Add mock for 
+* Add mock for Indicator
