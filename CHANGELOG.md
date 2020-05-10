@@ -34,4 +34,4 @@
 
 ## 0.1.0
 
-* Initial re
+* Initial release
