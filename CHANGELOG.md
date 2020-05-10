@@ -31,3 +31,6 @@
 ## 0.2.0
 
 * Add mock for Indicator
+
+## 0.1.0
+
