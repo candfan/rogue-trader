@@ -3,3 +3,11 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/evsamsonov/trading-indicators)](https://goreportcard.com/report/github.com/evsamsonov/trading-indicators)
 
 # Trading indicators
+
+The set of trading indicators
+
+## Installation
+
+```bash
+$ go get github.com/evsamsonov/trading-indicators/indicator  
+```
