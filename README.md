@@ -11,3 +11,10 @@ The set of trading indicators
 ```bash
 $ go get github.com/evsamsonov/trading-indicators/indicator  
 ```
+
+## Usage
+
+All indicators requires trading data in [**timeseries**](https://github.com/evsamsonov/trading-timeseries) structure 
+
+```go
+dataset := []struct {
