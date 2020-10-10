@@ -32,3 +32,11 @@ dataset := []struct {
 series := timeseries.New()
 for _, item := range dataset {
     candle := timeseries.NewCandle(item.Time)
+    candle.Open = item.Open
+    candle.Close = item.Close
+    candle.High = item.High
+    candle.Low = item.Low
+    candle.Volume = item.Volume
+
+    err := series.AddCandle(candle)
+    if err != nil {
