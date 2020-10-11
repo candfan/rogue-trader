@@ -40,3 +40,19 @@ for _, item := range dataset {
 
     err := series.AddCandle(candle)
     if err != nil {
+        log.Printf("Failed to add candle: %v\n", err)
+    }
+}
+```
+
+### Average True Range
+
+Indicator calculates [Average True Range](https://en.wikipedia.org/wiki/Average_true_range ) (ATR)
+
+```go
+period := 2
+atrIndicator := indicator.NewAverageTrueRange(series, period)
+fmt.Println(atrIndicator.Calculate(1))   // 1.4727950000000014
+```
+
+### Average Volume
