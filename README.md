@@ -56,3 +56,20 @@ fmt.Println(atrIndicator.Calculate(1))   // 1.4727950000000014
 ```
 
 ### Average Volume
+
+Indicator calculates Average Volume
+
+```go
+period := 2
+atrIndicator := indicator.NewAverageVolume(series, period)
+fmt.Println(atrIndicator.Calculate(1))  // 4368750
+```
+
+### Exponential Moving Average
+
+Indicator calculates Exponential Moving Average
+
+```go
+smoothInterval := 2
+atrIndicator := indicator.NewExponentialMovingAverage(series, smoothInterval)
+fmt.Println(atrIndicator.Calculate(1))  // 22.84552
