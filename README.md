@@ -73,3 +73,13 @@ Indicator calculates Exponential Moving Average
 smoothInterval := 2
 atrIndicator := indicator.NewExponentialMovingAverage(series, smoothInterval)
 fmt.Println(atrIndicator.Calculate(1))  // 22.84552
+```
+
+### Trend
+
+The indicator returns a trend direction. It bases on fast (with shorter period) and slow EMA. The third parameter of NewTrend allows setting max difference between fast and slow EMA when Calculate returns the flat.
+
+```go
+fastEMAIndicator, err := indicator.NewExponentialMovingAverage(series, 14)
+if err != nil {
+    log.Fatalln(err)
