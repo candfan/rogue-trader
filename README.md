@@ -83,3 +83,14 @@ The indicator returns a trend direction. It bases on fast (with shorter period) 
 fastEMAIndicator, err := indicator.NewExponentialMovingAverage(series, 14)
 if err != nil {
     log.Fatalln(err)
+}
+slowEMAIndicator, err := indicator.NewExponentialMovingAverage(series, 50)
+if err != nil {
+    log.Fatalln(err)
+}
+
+trendIndicator := indicator.NewTrend(fastEMAIndicator, slowEMAIndicator, 0.6)
+trend := trendIndicator.Calculate(1)
+switch trend {
+case indicator.UpTrend:
+    fmt.Println("Up trend")
