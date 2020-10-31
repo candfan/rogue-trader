@@ -1,0 +1,5 @@
+
+github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
+github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/evsamsonov/trading-timeseries v0.2.0 h1:gS4kdwkL9essCV/bx+tcMgu47kjrFt0PznItsix71UA=
+github.com/evsamsonov/trading-timeseries v0.2.0/go.mod h1:Nz68mH5DPulLi6ZMO3c58z3mLiHPKjkXlU4Iymw48IA=
