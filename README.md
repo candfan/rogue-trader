@@ -94,3 +94,9 @@ trend := trendIndicator.Calculate(1)
 switch trend {
 case indicator.UpTrend:
     fmt.Println("Up trend")
+case indicator.DownTrend:
+    fmt.Println("Down trend")
+case indicator.FlatTrend:
+    fmt.Println("Flat trend")
+}
+```
