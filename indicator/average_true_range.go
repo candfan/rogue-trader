@@ -31,3 +31,15 @@ func (ind *AverageTrueRange) Calculate(index int) float64 {
 
 	for i := ind.lastComputed; i <= index; i++ {
 		ind.cache[i] = ind.doCalculate(i)
+	}
+
+	ind.lastComputed = index
+	return ind.cache[index]
+}
+
+func (ind *AverageTrueRange) doCalculate(i int) float64 {
+	if i == ind.period-1 {
+		// For first index ATR equals sum of previous values divided by period
+		trueRangeSum := 0.0
+		for j := 0; j < ind.period; j++ {
+			trueRangeSum += ind.calculateTrueRange(j)
