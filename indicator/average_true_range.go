@@ -64,3 +64,4 @@ func (ind *AverageTrueRange) calculateTrueRange(index int) float64 {
 	lowCloseDiff := math.Abs(candle.Low - prevCandle.Close)
 
 	return math.Max(highLowDiff, math.Max(highCloseDiff, lowCloseDiff))
+}
