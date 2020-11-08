@@ -50,3 +50,17 @@ func (ind *AverageTrueRange) doCalculate(i int) float64 {
 
 	return (ind.cache[i-1]*float64(ind.period-1) + ind.calculateTrueRange(i)) / float64(ind.period)
 }
+
+func (ind *AverageTrueRange) calculateTrueRange(index int) float64 {
+	candle := ind.series.Candle(index)
+	highLowDiff := math.Abs(candle.High - candle.Low)
+	if index == 0 {
+		return highLowDiff
+	}
+
+	prevCandle := ind.series.Candle(index - 1)
+
+	highCloseDiff := math.Abs(candle.High - prevCandle.Close)
+	lowCloseDiff := math.Abs(candle.Low - prevCandle.Close)
+
+	return math.Max(highLowDiff, math.Max(highCloseDiff, lowCloseDiff))
