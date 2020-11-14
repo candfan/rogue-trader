@@ -2,4 +2,5 @@ package indicator
 
 import (
 	"math"
-	"tes
+	"testing"
+)
