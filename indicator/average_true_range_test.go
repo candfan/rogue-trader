@@ -5,4 +5,4 @@ import (
 	"testing"
 )
 
-func TestAverageTrueR
+func TestAverageTrueRange_Calcu
