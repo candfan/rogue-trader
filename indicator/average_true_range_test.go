@@ -8,4 +8,4 @@ import (
 func TestAverageTrueRange_Calculate(t *testing.T) {
 	series := GetTestSeries()
 
-	
+	testCases :=
