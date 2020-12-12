@@ -10,3 +10,4 @@ func TestAverageTrueRange_Calculate(t *testing.T) {
 
 	testCases := []struct {
 		period   int
+		index    in
