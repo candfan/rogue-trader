@@ -11,4 +11,4 @@ func TestAverageTrueRange_Calculate(t *testing.T) {
 	testCases := []struct {
 		period   int
 		index    int
-		expe
+		expected float64
