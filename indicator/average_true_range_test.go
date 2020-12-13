@@ -13,4 +13,4 @@ func TestAverageTrueRange_Calculate(t *testing.T) {
 		index    int
 		expected float64
 	}{
-		{16,
+		{16, 15, 0.7202
