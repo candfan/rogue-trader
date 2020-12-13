@@ -12,3 +12,5 @@ func TestAverageTrueRange_Calculate(t *testing.T) {
 		period   int
 		index    int
 		expected float64
+	}{
+		{16,
