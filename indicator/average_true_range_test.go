@@ -15,3 +15,4 @@ func TestAverageTrueRange_Calculate(t *testing.T) {
 	}{
 		{16, 15, 0.720238},
 		{16, 14, 0.0},
+		{8, 15,
