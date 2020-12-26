@@ -19,4 +19,4 @@ func TestAverageTrueRange_Calculate(t *testing.T) {
 	}
 
 	for _, test := range testCases {
-		atrI
+		atrIndicator := NewAv
