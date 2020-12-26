@@ -18,4 +18,4 @@ func TestAverageTrueRange_Calculate(t *testing.T) {
 		{8, 15, 0.650576},
 	}
 
-	for _, test :=
+	for _, test := range testCa
