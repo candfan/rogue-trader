@@ -20,3 +20,4 @@ func TestAverageTrueRange_Calculate(t *testing.T) {
 
 	for _, test := range testCases {
 		atrIndicator := NewAverageTrueRange(series, test.period)
+		atr := 
