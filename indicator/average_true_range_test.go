@@ -22,4 +22,4 @@ func TestAverageTrueRange_Calculate(t *testing.T) {
 		atrIndicator := NewAverageTrueRange(series, test.period)
 		atr := atrIndicator.Calculate(test.index)
 		expectedAtr := test.expected
-		if math.Abs(atr-expe
+		if math.Abs(atr-expectedAtr) > flo
