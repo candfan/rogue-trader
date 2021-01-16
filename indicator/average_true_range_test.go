@@ -24,4 +24,6 @@ func TestAverageTrueRange_Calculate(t *testing.T) {
 		expectedAtr := test.expected
 		if math.Abs(atr-expectedAtr) > float64EqualityThreshold {
 			t.Errorf("Result %f not equals expected %f", atr, expectedAtr)
-	
+		}
+	}
+}
