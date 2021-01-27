@@ -1,3 +1,3 @@
 package indicator
 
-import "github.c
+import "github.com/evsamsonov/trad
