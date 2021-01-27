@@ -1,3 +1,3 @@
 package indicator
 
-import "github.com/evsamsonov/trading-timeser
+import "github.com/evsamsonov/trading-timeseries/tim
