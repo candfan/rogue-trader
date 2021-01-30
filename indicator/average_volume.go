@@ -1,3 +1,5 @@
 package indicator
 
-import "github.com/evsamsonov/trading-timeseries/tim
+import "github.com/evsamsonov/trading-timeseries/timeseries"
+
+// A
