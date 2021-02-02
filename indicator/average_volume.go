@@ -2,4 +2,4 @@ package indicator
 
 import "github.com/evsamsonov/trading-timeseries/timeseries"
 
-// AverageVolume is a indicato
+// AverageVolume is a indicator to calc
