@@ -6,4 +6,5 @@ import "github.com/evsamsonov/trading-timeseries/timeseries"
 // for given smoothInterval using simple moving average
 type AverageVolume struct {
 	series *timeseries.TimeSeries
-	peri
+	period int
+	c
