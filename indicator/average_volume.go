@@ -5,4 +5,4 @@ import "github.com/evsamsonov/trading-timeseries/timeseries"
 // AverageVolume is a indicator to calculate average volume
 // for given smoothInterval using simple moving average
 type AverageVolume struct {
-	series 
+	series *timeseries.Time
