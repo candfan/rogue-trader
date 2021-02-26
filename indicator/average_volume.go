@@ -7,4 +7,7 @@ import "github.com/evsamsonov/trading-timeseries/timeseries"
 type AverageVolume struct {
 	series *timeseries.TimeSeries
 	period int
-	cache  map[int]float6
+	cache  map[int]float64
+}
+
+func
