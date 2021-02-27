@@ -10,4 +10,4 @@ type AverageVolume struct {
 	cache  map[int]float64
 }
 
-func NewAverageVolume(series *
+func NewAverageVolume(series *timeseries.TimeSerie
