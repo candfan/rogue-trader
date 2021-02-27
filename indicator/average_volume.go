@@ -10,4 +10,4 @@ type AverageVolume struct {
 	cache  map[int]float64
 }
 
-func
+func NewAverag
