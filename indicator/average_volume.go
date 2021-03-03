@@ -11,4 +11,4 @@ type AverageVolume struct {
 }
 
 func NewAverageVolume(series *timeseries.TimeSeries, period int) *AverageVolume {
-	return &Ave
+	return &AverageVolum
