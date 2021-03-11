@@ -15,4 +15,7 @@ func NewAverageVolume(series *timeseries.TimeSeries, period int) *AverageVolume 
 		series: series,
 		period: period,
 		cache:  make(map[int]float64),
-	
+	}
+}
+
+func (
