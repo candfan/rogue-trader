@@ -18,4 +18,4 @@ func NewAverageVolume(series *timeseries.TimeSeries, period int) *AverageVolume 
 	}
 }
 
-func (av *Avera
+func (av *AverageVolume) Ca
