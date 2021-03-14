@@ -18,4 +18,4 @@ func NewAverageVolume(series *timeseries.TimeSeries, period int) *AverageVolume 
 	}
 }
 
-func (av *AverageVolume) Calculate(in
+func (av *AverageVolume) Calculate(index int) float6
