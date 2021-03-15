@@ -22,3 +22,5 @@ func (av *AverageVolume) Calculate(index int) float64 {
 	if index < av.period-1 {
 		return 0
 	}
+
+	if val, ok :=
