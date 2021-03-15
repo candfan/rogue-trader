@@ -20,3 +20,5 @@ func NewAverageVolume(series *timeseries.TimeSeries, period int) *AverageVolume 
 
 func (av *AverageVolume) Calculate(index int) float64 {
 	if index < av.period-1 {
+		return 0
+	}
