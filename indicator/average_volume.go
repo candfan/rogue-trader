@@ -24,3 +24,4 @@ func (av *AverageVolume) Calculate(index int) float64 {
 	}
 
 	if val, ok := av.cache[index]; ok {
+		return val
