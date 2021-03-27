@@ -27,4 +27,5 @@ func (av *AverageVolume) Calculate(index int) float64 {
 		return val
 	}
 
-	vol
+	volumeSum := 0.0
+	
