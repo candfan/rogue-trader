@@ -29,3 +29,4 @@ func (av *AverageVolume) Calculate(index int) float64 {
 
 	volumeSum := 0.0
 	for i := index - av.period + 1; i <= index; i++ {
+		volumeSum 
