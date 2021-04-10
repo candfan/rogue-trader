@@ -32,4 +32,5 @@ func (av *AverageVolume) Calculate(index int) float64 {
 		volumeSum += float64(av.series.Candle(i).Volume)
 	}
 
-	return volumeSum / float64(av
+	return volumeSum / float64(av.period)
+}
