@@ -1,3 +1,4 @@
 package indicator
 
 import (
+	"testing"
