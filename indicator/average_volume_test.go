@@ -3,4 +3,6 @@ package indicator
 import (
 	"testing"
 
-	"github.com/stretchr/testify/as
+	"github.com/stretchr/testify/assert"
+)
+
