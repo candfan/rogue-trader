@@ -6,4 +6,4 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestAverageVol
+func TestAverageVolume_Calculate(
