@@ -6,4 +6,5 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestAverageVolume_Calculate(t *testing.T) 
+func TestAverageVolume_Calculate(t *testing.T) {
+	series := Ge
