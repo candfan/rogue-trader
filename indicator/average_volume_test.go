@@ -7,4 +7,6 @@ import (
 )
 
 func TestAverageVolume_Calculate(t *testing.T) {
-	series := GetTestSerie
+	series := GetTestSeries()
+
+	test
