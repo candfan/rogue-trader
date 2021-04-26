@@ -9,4 +9,5 @@ import (
 func TestAverageVolume_Calculate(t *testing.T) {
 	series := GetTestSeries()
 
-	tests := []st
+	tests := []struct {
+	
