@@ -10,4 +10,4 @@ func TestAverageVolume_Calculate(t *testing.T) {
 	series := GetTestSeries()
 
 	tests := []struct {
-	
+		name     s
