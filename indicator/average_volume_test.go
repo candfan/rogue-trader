@@ -12,4 +12,5 @@ func TestAverageVolume_Calculate(t *testing.T) {
 	tests := []struct {
 		name     string
 		period   int
-		index    
+		index    int
+		expecte
