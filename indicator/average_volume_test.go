@@ -14,3 +14,5 @@ func TestAverageVolume_Calculate(t *testing.T) {
 		period   int
 		index    int
 		expected float64
+	}{
+		{name: "n
