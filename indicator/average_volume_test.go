@@ -15,4 +15,5 @@ func TestAverageVolume_Calculate(t *testing.T) {
 		index    int
 		expected float64
 	}{
-		{name: "not enough data", period: 3, index: 1, expected:
+		{name: "not enough data", period: 3, index: 1, expected: 0},
+		{name: "smo
