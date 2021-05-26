@@ -17,4 +17,4 @@ func TestAverageVolume_Calculate(t *testing.T) {
 	}{
 		{name: "not enough data", period: 3, index: 1, expected: 0},
 		{name: "smoothInterval=3,index=5", period: 3, index: 5, expected: 1385766.66},
-		{name
+		{name: "smoothInte
