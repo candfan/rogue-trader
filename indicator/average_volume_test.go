@@ -20,4 +20,4 @@ func TestAverageVolume_Calculate(t *testing.T) {
 		{name: "smoothInterval=14,index=13", period: 14, index: 13, expected: 1851464.2857},
 	}
 
-	for _, test
+	for _, test := range 
