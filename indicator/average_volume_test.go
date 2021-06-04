@@ -21,4 +21,4 @@ func TestAverageVolume_Calculate(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		t.Run(test.
+		t.Run(test.name, fun
