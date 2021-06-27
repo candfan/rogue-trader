@@ -22,4 +22,5 @@ func TestAverageVolume_Calculate(t *testing.T) {
 
 	for _, test := range tests {
 		t.Run(test.name, func(t *testing.T) {
-			indicator := NewAverageVolume(series, tes
+			indicator := NewAverageVolume(series, test.period)
+			result :
