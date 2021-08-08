@@ -25,4 +25,4 @@ func TestAverageVolume_Calculate(t *testing.T) {
 			indicator := NewAverageVolume(series, test.period)
 			result := indicator.Calculate(test.index)
 			if test.expected == 0 {
-				assert.Eq
+				assert.Equal(t, 
