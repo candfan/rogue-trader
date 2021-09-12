@@ -27,4 +27,5 @@ func TestAverageVolume_Calculate(t *testing.T) {
 			if test.expected == 0 {
 				assert.Equal(t, test.expected, result)
 			} else {
-				assert.InEpsilon(t, test.expected, result, float64EqualityThresh
+				assert.InEpsilon(t, test.expected, result, float64EqualityThreshold)
+			}
