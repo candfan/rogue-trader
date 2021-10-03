@@ -28,3 +28,13 @@ func NewExponentialMovingAverage(series *timeseries.TimeSeries, smoothInterval i
 	return &ExponentialMovingAverage{
 		series:         series,
 		smoothInterval: smoothInterval,
+		cache:          make([]float64, series.Length()),
+		smooth:         smooth,
+	}, nil
+}
+
+func (a *ExponentialMovingAverage) Calculate(index int) float64 {
+	if index >= len(a.cache) {
+		a.cache = append(a.cache, 0)
+		a.cache = a.cache[:cap(a.cache)]
+	}
