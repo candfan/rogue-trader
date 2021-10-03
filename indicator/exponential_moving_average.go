@@ -18,3 +18,13 @@ type ExponentialMovingAverage struct {
 
 func NewExponentialMovingAverage(series *timeseries.TimeSeries, smoothInterval int) (*ExponentialMovingAverage, error) {
 	if series.Length() == 0 {
+		return nil, errors.New("series is empty")
+	}
+	if smoothInterval < 0 {
+		return nil, errors.New("smoothInterval cannot be negative")
+	}
+	smooth := 2 / (float64(smoothInterval) + 1)
+
+	return &ExponentialMovingAverage{
+		series:         series,
+		smoothInterval: smoothInterval,
