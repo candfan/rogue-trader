@@ -38,3 +38,15 @@ func (a *ExponentialMovingAverage) Calculate(index int) float64 {
 		a.cache = append(a.cache, 0)
 		a.cache = a.cache[:cap(a.cache)]
 	}
+	if a.cache[index] != 0 {
+		return a.cache[index]
+	}
+	if a.maxIndex == 0 {
+		a.cache[0] = a.series.Candle(0).Close
+	}
+
+	for i := a.maxIndex + 1; i <= index; i++ {
+		a.cache[i] = a.smooth*a.series.Candle(i).Close + (1-a.smooth)*a.cache[i-1]
+	}
+
+	a.maxIndex = index
