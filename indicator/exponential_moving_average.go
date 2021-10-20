@@ -50,3 +50,5 @@ func (a *ExponentialMovingAverage) Calculate(index int) float64 {
 	}
 
 	a.maxIndex = index
+	return a.cache[index]
+}
