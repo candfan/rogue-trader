@@ -2,4 +2,5 @@ package indicator
 
 import (
 	"sync"
-	"tes
+	"testing"
+	"time
