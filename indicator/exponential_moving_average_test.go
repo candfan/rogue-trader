@@ -3,4 +3,6 @@ package indicator
 import (
 	"sync"
 	"testing"
-	"time
+	"time"
+
+	"github.com/e
