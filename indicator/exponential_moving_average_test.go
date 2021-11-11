@@ -5,4 +5,4 @@ import (
 	"testing"
 	"time"
 
-	"github.com/evsamsonov/
+	"github.com/evsamsonov/trading-timeser
