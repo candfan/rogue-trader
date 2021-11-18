@@ -6,4 +6,4 @@ import (
 	"time"
 
 	"github.com/evsamsonov/trading-timeseries/timeseries"
-	"github.co
+	"github.com/stretchr/tes
