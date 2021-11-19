@@ -6,4 +6,4 @@ import (
 	"time"
 
 	"github.com/evsamsonov/trading-timeseries/timeseries"
-	"github.com/stretchr/tes
+	"github.com/stretchr/testify/assert"
