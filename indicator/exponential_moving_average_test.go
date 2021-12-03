@@ -9,4 +9,4 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestE
+func TestExponentialMov
