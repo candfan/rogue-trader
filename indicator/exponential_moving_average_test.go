@@ -9,4 +9,4 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestExponentialMovingAverage_C
+func TestExponentialMovingAverage_Calculate(t
