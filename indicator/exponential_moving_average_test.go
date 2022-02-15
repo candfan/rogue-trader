@@ -10,4 +10,6 @@ import (
 )
 
 func TestExponentialMovingAverage_Calculate(t *testing.T) {
-	series := GetTest
+	series := GetTestSeries()
+
+	
