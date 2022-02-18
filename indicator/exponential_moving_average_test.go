@@ -12,4 +12,5 @@ import (
 func TestExponentialMovingAverage_Calculate(t *testing.T) {
 	series := GetTestSeries()
 
-	tests := []
+	tests := []struct {
+		name  
