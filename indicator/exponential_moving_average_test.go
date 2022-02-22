@@ -14,3 +14,4 @@ func TestExponentialMovingAverage_Calculate(t *testing.T) {
 
 	tests := []struct {
 		name           string
+		smoothI
