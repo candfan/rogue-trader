@@ -16,3 +16,4 @@ func TestExponentialMovingAverage_Calculate(t *testing.T) {
 		name           string
 		smoothInterval int
 		index          int
+		expecte
