@@ -18,4 +18,4 @@ func TestExponentialMovingAverage_Calculate(t *testing.T) {
 		index          int
 		expected       float64
 	}{
-		
+		{name: "no
