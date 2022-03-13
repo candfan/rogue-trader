@@ -18,4 +18,5 @@ func TestExponentialMovingAverage_Calculate(t *testing.T) {
 		index          int
 		expected       float64
 	}{
-		{name: "not enough data", smoothInterval: 3, index: 0, expected: 22.104
+		{name: "not enough data", smoothInterval: 3, index: 0, expected: 22.1044},
+		{name: "
