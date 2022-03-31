@@ -22,4 +22,5 @@ func TestExponentialMovingAverage_Calculate(t *testing.T) {
 		{name: "smoothInterval=3,index=2", smoothInterval: 3, index: 2, expected: 22.433045},
 	}
 
-	for _, test := range tests
+	for _, test := range tests {
+		t.Run
