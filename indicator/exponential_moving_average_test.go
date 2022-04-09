@@ -24,4 +24,4 @@ func TestExponentialMovingAverage_Calculate(t *testing.T) {
 
 	for _, test := range tests {
 		t.Run(test.name, func(t *testing.T) {
-			indicator, err := NewExponentialMovingAverage(ser
+			indicator, err := NewExponentialMovingAverage(series, test.smo
