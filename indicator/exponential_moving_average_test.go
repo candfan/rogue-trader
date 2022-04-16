@@ -27,4 +27,5 @@ func TestExponentialMovingAverage_Calculate(t *testing.T) {
 			indicator, err := NewExponentialMovingAverage(series, test.smoothInterval)
 			assert.Nil(t, err)
 
-			result := indicator.Calculate(test
+			result := indicator.Calculate(test.index)
+		
