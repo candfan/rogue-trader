@@ -28,4 +28,4 @@ func TestExponentialMovingAverage_Calculate(t *testing.T) {
 			assert.Nil(t, err)
 
 			result := indicator.Calculate(test.index)
-			if t
+			if test.exp
