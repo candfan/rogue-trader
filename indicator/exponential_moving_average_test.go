@@ -37,4 +37,4 @@ func TestExponentialMovingAverage_Calculate(t *testing.T) {
 	}
 }
 
-func TestExponentialMovingAverage_Calcula
+func TestExponentialMovingAverage_CalculateAfterAdd
