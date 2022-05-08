@@ -40,4 +40,6 @@ func TestExponentialMovingAverage_Calculate(t *testing.T) {
 func TestExponentialMovingAverage_CalculateAfterAddCandle(t *testing.T) {
 	defer func() {
 		if r := recover(); r != nil {
-			t.Fatalf("
+			t.Fatalf("%v", r)
+		}
+	}(
