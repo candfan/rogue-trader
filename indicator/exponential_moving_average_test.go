@@ -42,4 +42,5 @@ func TestExponentialMovingAverage_CalculateAfterAddCandle(t *testing.T) {
 		if r := recover(); r != nil {
 			t.Fatalf("%v", r)
 		}
-	}(
+	}()
+	series :
