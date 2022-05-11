@@ -44,4 +44,4 @@ func TestExponentialMovingAverage_CalculateAfterAddCandle(t *testing.T) {
 		}
 	}()
 	series := GetTestSeries()
-	indicator, err := NewExponenti
+	indicator, err := NewExponentialMovingAverage(s
