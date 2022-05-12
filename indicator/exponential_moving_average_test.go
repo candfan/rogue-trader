@@ -45,3 +45,4 @@ func TestExponentialMovingAverage_CalculateAfterAddCandle(t *testing.T) {
 	}()
 	series := GetTestSeries()
 	indicator, err := NewExponentialMovingAverage(series, 3)
+	assert.Nil(t, 
