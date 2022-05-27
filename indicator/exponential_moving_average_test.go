@@ -52,4 +52,4 @@ func TestExponentialMovingAverage_CalculateAfterAddCandle(t *testing.T) {
 	indicator.Calculate(series.Length() - 1)
 }
 
-f
+func BenchmarkE
