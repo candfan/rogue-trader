@@ -49,4 +49,7 @@ func TestExponentialMovingAverage_CalculateAfterAddCandle(t *testing.T) {
 
 	err = series.AddCandle(&timeseries.Candle{Time: time.Now()})
 	assert.Nil(t, err)
-	indicator.Calculate(series.Leng
+	indicator.Calculate(series.Length() - 1)
+}
+
+f
