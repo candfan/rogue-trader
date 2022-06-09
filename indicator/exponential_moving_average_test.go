@@ -54,4 +54,5 @@ func TestExponentialMovingAverage_CalculateAfterAddCandle(t *testing.T) {
 
 func BenchmarkExponentialMovingAverage_Calculate(b *testing.B) {
 	series := GetTestSeries()
-	indicator, err := NewExponentialMovingAverage(seri
+	indicator, err := NewExponentialMovingAverage(series, 3)
+	a
