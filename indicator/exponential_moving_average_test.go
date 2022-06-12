@@ -57,4 +57,5 @@ func BenchmarkExponentialMovingAverage_Calculate(b *testing.B) {
 	indicator, err := NewExponentialMovingAverage(series, 3)
 	assert.Nil(b, err)
 
-	b.ResetTimer
+	b.ResetTimer()
+	var wg
