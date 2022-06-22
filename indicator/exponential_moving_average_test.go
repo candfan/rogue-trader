@@ -62,4 +62,4 @@ func BenchmarkExponentialMovingAverage_Calculate(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		for j := 0; j < 4; j++ {
 			wg.Add(1)
-			go fu
+			go func(j int) 
