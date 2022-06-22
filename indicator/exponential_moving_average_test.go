@@ -60,4 +60,5 @@ func BenchmarkExponentialMovingAverage_Calculate(b *testing.B) {
 	b.ResetTimer()
 	var wg sync.WaitGroup
 	for i := 0; i < b.N; i++ {
-		for j := 0; j < 4; j++ 
+		for j := 0; j < 4; j++ {
+			wg.A
