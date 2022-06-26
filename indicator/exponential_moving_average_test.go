@@ -65,3 +65,5 @@ func BenchmarkExponentialMovingAverage_Calculate(b *testing.B) {
 			go func(j int) {
 				defer wg.Done()
 				indicator.Calculate(60 + j)
+			}(j)
+		
