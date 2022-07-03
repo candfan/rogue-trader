@@ -1,3 +1,3 @@
 package indicator
 
-// Indi
+// Indicator represe
