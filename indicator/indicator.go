@@ -1,3 +1,3 @@
 package indicator
 
-// Indicator represe
+// Indicator represents interface f
