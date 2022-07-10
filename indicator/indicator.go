@@ -2,4 +2,4 @@ package indicator
 
 // Indicator represents interface for indicators
 type Indicator interface {
-	Calculate(index int) f
+	Calculate(index int) float64 // index of t
