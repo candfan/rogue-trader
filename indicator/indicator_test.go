@@ -50,3 +50,8 @@ func GetTestCandles() []TestCandle {
 		{high: 25.549, low: 24.89005, open: 25.12, close: 25.32633, time: 1125262800, volume: 798000},
 		{high: 25.64999, low: 25.237, open: 25.3, close: 25.385, time: 1125349200, volume: 1014100},
 		{high: 25.548, low: 24.9, open: 25.385, close: 25.51, time: 1125435600, volume: 1326900},
+		{high: 25.9, low: 25.401, open: 25.515, close: 25.50001, time: 1125522000, volume: 1121400},
+		{high: 25.77, low: 25.5, open: 25.52501, close: 25.625, time: 1125608400, volume: 642300},
+		{high: 25.75, low: 25.27001, open: 25.6275, close: 25.31, time: 1125867600, volume: 686500},
+		{high: 25.298, low: 24.259, open: 25.27053, close: 24.39595, time: 1125954000, volume: 2541700},
+		{high: 24.785, low: 23.667, open: 24.4, close: 24.26, time: 1126040400, volume: 2517600},
