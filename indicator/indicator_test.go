@@ -92,3 +92,17 @@ func GetTestCandles() []TestCandle {
 		{high: 24.8, low: 23.81, open: 24.575, close: 23.85, time: 1130360400, volume: 1584300},
 		{high: 24.59, low: 23.401, open: 23.75, close: 24.55223, time: 1130446800, volume: 1347900},
 		{high: 25.39997, low: 24.6, open: 24.8395, close: 25.31271, time: 1130706000, volume: 1804300},
+		{high: 25.87, low: 25.13753, open: 25.1795, close: 25.375, time: 1130792400, volume: 1762600},
+		{high: 26.48, low: 25.411, open: 25.411, close: 26.34148, time: 1130878800, volume: 2537000},
+	}
+}
+
+func GetTestSeries() *timeseries.TimeSeries {
+	series := timeseries.New()
+	for _, item := range GetTestCandles() {
+		candle := timeseries.NewCandle(time.Unix(item.time, 0))
+		candle.High = item.high
+		candle.Low = item.low
+		candle.Open = item.open
+		candle.Close = item.close
+		candle.Volume = item.volume
