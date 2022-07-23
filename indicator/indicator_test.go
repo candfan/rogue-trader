@@ -106,3 +106,12 @@ func GetTestSeries() *timeseries.TimeSeries {
 		candle.Open = item.open
 		candle.Close = item.close
 		candle.Volume = item.volume
+
+		err := series.AddCandle(candle)
+		if err != nil {
+			log.Fatalf("Failed to add candle: %s", err)
+		}
+	}
+
+	return series
+}
