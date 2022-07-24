@@ -28,3 +28,17 @@ func NewTrend(
 		fastEMAIndicator: fastEMAIndicator,
 		slowEMAIndicator: slowEMAIndicator,
 		flatMaxDiff:      flatMaxDiff,
+	}
+}
+
+func (t *Trend) Calculate(index int) float64 {
+	fastVal := t.fastEMAIndicator.Calculate(index)
+	slowVal := t.slowEMAIndicator.Calculate(index)
+
+	if math.Abs(fastVal-slowVal)-t.flatMaxDiff <= 1e-6 {
+		return FlatTrend
+	}
+	if fastVal > slowVal {
+		return UpTrend
+	}
+	return DownTrend
