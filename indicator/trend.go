@@ -42,3 +42,4 @@ func (t *Trend) Calculate(index int) float64 {
 		return UpTrend
 	}
 	return DownTrend
+}
