@@ -6,4 +6,5 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestTrend_Calculate(t *te
+func TestTrend_Calculate(t *testing.T) {
+	
