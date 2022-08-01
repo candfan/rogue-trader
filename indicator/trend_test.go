@@ -7,4 +7,4 @@ import (
 )
 
 func TestTrend_Calculate(t *testing.T) {
-	
+	tests := [
