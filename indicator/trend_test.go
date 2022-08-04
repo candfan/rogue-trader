@@ -7,4 +7,5 @@ import (
 )
 
 func TestTrend_Calculate(t *testing.T) {
-	tests := []st
+	tests := []struct {
+		na
