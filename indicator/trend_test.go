@@ -8,4 +8,5 @@ import (
 
 func TestTrend_Calculate(t *testing.T) {
 	tests := []struct {
-		name    st
+		name    string
+		fast
