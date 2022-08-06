@@ -9,4 +9,5 @@ import (
 func TestTrend_Calculate(t *testing.T) {
 	tests := []struct {
 		name    string
-		fast
+		fastVal float64
+	
