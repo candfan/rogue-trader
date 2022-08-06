@@ -8,4 +8,4 @@ import (
 
 func TestTrend_Calculate(t *testing.T) {
 	tests := []struct {
-		na
+		name    st
