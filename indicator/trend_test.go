@@ -13,4 +13,5 @@ func TestTrend_Calculate(t *testing.T) {
 		slowVal float64
 		want    float64
 	}{
-	
+		{
+			name
