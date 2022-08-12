@@ -14,4 +14,4 @@ func TestTrend_Calculate(t *testing.T) {
 		want    float64
 	}{
 		{
-			name
+			name:    "up trend",
