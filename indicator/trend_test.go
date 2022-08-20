@@ -20,4 +20,4 @@ func TestTrend_Calculate(t *testing.T) {
 			want:    UpTrend,
 		},
 		{
-		
+			name:    "d
