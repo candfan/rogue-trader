@@ -26,4 +26,5 @@ func TestTrend_Calculate(t *testing.T) {
 			want:    DownTrend,
 		},
 		{
-			name:    "flat t
+			name:    "flat trend",
+			fastVal
