@@ -33,4 +33,4 @@ func TestTrend_Calculate(t *testing.T) {
 		},
 		{
 			name:    "flat trend 2",
-			fas
+			fastVal: 
