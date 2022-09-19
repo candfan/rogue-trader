@@ -36,3 +36,7 @@ func TestTrend_Calculate(t *testing.T) {
 			fastVal: 1.6,
 			slowVal: 1.0,
 			want:    FlatTrend,
+		},
+	}
+
+	
