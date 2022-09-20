@@ -39,4 +39,4 @@ func TestTrend_Calculate(t *testing.T) {
 		},
 	}
 
-	for _, tt := ra
+	for _, tt := range tests 
