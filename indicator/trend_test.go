@@ -40,4 +40,4 @@ func TestTrend_Calculate(t *testing.T) {
 	}
 
 	for _, tt := range tests {
-		t.Ru
+		t.Run(tt.name,
