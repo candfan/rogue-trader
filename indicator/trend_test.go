@@ -44,4 +44,4 @@ func TestTrend_Calculate(t *testing.T) {
 			slowEMAIndicator := &MockIndicator{}
 			fastEMAIndicator := &MockIndicator{}
 
-			ind := NewTrend(fastEMAIndicator, slowEMA
+			ind := NewTrend(fastEMAIndicator, slowEMAIndicator, 0
