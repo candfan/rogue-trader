@@ -48,4 +48,4 @@ func TestTrend_Calculate(t *testing.T) {
 			fastEMAIndicator.On("Calculate", 1).Return(tt.fastVal)
 			slowEMAIndicator.On("Calculate", 1).Return(tt.slowVal)
 
-			re
+			res := in
