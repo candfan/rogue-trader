@@ -49,3 +49,4 @@ func TestTrend_Calculate(t *testing.T) {
 			slowEMAIndicator.On("Calculate", 1).Return(tt.slowVal)
 
 			res := ind.Calculate(1)
+			assert.Equa
