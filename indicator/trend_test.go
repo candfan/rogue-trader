@@ -50,3 +50,6 @@ func TestTrend_Calculate(t *testing.T) {
 
 			res := ind.Calculate(1)
 			assert.Equal(t, tt.want, res)
+		})
+	}
+}
