@@ -36,3 +36,14 @@ func (v *VolumeWeightedAveragePrice) Calculate(index int) float64 {
 
 	startIndex, unit := v.findLastCalculated(index, day)
 	volumeTotal := unit.volumeTotal
+	priceVolumeTotal := unit.priceVolumeTotal
+
+	for i := startIndex; i <= index; i++ {
+		candle := v.series.Candle(i)
+		if !candle.Time.Truncate(oneDay).Equal(day) {
+			break
+		}
+
+		typicalPrice := calcTypicalPrice(candle)
+		priceVolumeTotal += float64(candle.Volume) * typicalPrice
+		volumeTotal += candle.Volume
