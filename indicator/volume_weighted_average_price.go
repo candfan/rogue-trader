@@ -56,3 +56,14 @@ func (v *VolumeWeightedAveragePrice) Calculate(index int) float64 {
 	}
 
 	unit, _ = v.cache.get(index)
+	return unit.vwap
+}
+
+func (v *VolumeWeightedAveragePrice) findLastCalculated(index int, day time.Time) (startIndex int, item vwapUnit) {
+	for i := index - 1; i >= 0; i-- {
+		candle := v.series.Candle(i)
+		if !candle.Time.Truncate(oneDay).Equal(day) {
+			return i + 1, vwapUnit{}
+		}
+
+		item, ok := v.cache.get(i)
