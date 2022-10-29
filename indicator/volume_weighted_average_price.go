@@ -78,3 +78,19 @@ func (v *VolumeWeightedAveragePrice) findLastCalculated(index int, day time.Time
 func calcTypicalPrice(candle *timeseries.Candle) float64 {
 	return (candle.High + candle.Low + candle.Close) / 3
 }
+
+type vwapCache struct {
+	mu    sync.RWMutex
+	items map[int]vwapUnit
+}
+
+func newVwapCache() *vwapCache {
+	return &vwapCache{
+		items: make(map[int]vwapUnit),
+	}
+}
+
+type vwapUnit struct {
+	vwap             float64
+	priceVolumeTotal float64
+	volumeTotal      int64
