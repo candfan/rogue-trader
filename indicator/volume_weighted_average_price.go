@@ -67,3 +67,14 @@ func (v *VolumeWeightedAveragePrice) findLastCalculated(index int, day time.Time
 		}
 
 		item, ok := v.cache.get(i)
+		if ok {
+			return i + 1, item
+		}
+	}
+
+	return 0, vwapUnit{}
+}
+
+func calcTypicalPrice(candle *timeseries.Candle) float64 {
+	return (candle.High + candle.Low + candle.Close) / 3
+}
