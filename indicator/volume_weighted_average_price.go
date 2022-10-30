@@ -94,3 +94,11 @@ type vwapUnit struct {
 	vwap             float64
 	priceVolumeTotal float64
 	volumeTotal      int64
+}
+
+func (v *vwapCache) get(index int) (vwapUnit, bool) {
+	v.mu.RLock()
+	defer v.mu.RUnlock()
+	val, ok := v.items[index]
+	return val, ok
+}
