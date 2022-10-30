@@ -102,3 +102,9 @@ func (v *vwapCache) get(index int) (vwapUnit, bool) {
 	val, ok := v.items[index]
 	return val, ok
 }
+
+func (v *vwapCache) add(index int, item vwapUnit) {
+	v.mu.Lock()
+	defer v.mu.Unlock()
+	v.items[index] = item
+}
