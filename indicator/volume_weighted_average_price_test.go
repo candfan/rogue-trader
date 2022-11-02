@@ -1,4 +1,6 @@
 package indicator
 
 import (
-	"fm
+	"fmt"
+	"log"
+	"test
