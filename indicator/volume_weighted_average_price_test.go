@@ -6,4 +6,4 @@ import (
 	"testing"
 	"time"
 
-	"github.com/evsamsonov/trading-t
+	"github.com/evsamsonov/trading-timese
