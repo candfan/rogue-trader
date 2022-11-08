@@ -6,4 +6,5 @@ import (
 	"testing"
 	"time"
 
-	"github.com/evsamsonov/trading-timeseries/timese
+	"github.com/evsamsonov/trading-timeseries/timeseries"
+	"gi
