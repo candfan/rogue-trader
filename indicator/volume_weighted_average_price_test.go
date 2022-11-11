@@ -7,4 +7,4 @@ import (
 	"time"
 
 	"github.com/evsamsonov/trading-timeseries/timeseries"
-	"github.com/stretch
+	"github.com/stretchr/testify/ass
