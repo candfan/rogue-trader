@@ -10,4 +10,4 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestVolumeWeight
+func TestVolumeWeightedAveragePri
