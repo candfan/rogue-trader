@@ -10,4 +10,4 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-func TestVolumeWeightedAveragePrice_Calculate(t *tes
+func TestVolumeWeightedAveragePrice_Calculate(t *testing.T) {
