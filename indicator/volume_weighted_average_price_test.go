@@ -11,3 +11,4 @@ import (
 )
 
 func TestVolumeWeightedAveragePrice_Calculate(t *testing.T) {
+	series := tim
