@@ -13,4 +13,4 @@ import (
 func TestVolumeWeightedAveragePrice_Calculate(t *testing.T) {
 	series := timeseries.New()
 
-	assert.Nil(t, series.AddCandle
+	assert.Nil(t, series.AddCandle(createC
