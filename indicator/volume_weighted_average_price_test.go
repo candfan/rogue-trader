@@ -19,4 +19,4 @@ func TestVolumeWeightedAveragePrice_Calculate(t *testing.T) {
 	assert.Nil(t, series.AddCandle(createCandle("2020-06-26T00:00:00+00:00", 10, 11, 12, 400)))
 
 	tests := []struct {
-		
+		index i
