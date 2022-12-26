@@ -20,4 +20,6 @@ func TestVolumeWeightedAveragePrice_Calculate(t *testing.T) {
 
 	tests := []struct {
 		index int
-		want 
+		want  float64
+	}{
+		
