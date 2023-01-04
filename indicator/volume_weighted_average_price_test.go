@@ -24,4 +24,4 @@ func TestVolumeWeightedAveragePrice_Calculate(t *testing.T) {
 	}{
 		{index: 0, want: 2},
 		{index: 1, want: 5},
-		
+		{index: 2, wan
