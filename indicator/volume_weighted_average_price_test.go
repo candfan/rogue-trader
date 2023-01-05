@@ -26,3 +26,5 @@ func TestVolumeWeightedAveragePrice_Calculate(t *testing.T) {
 		{index: 1, want: 5},
 		{index: 2, want: 6.8},
 	}
+
+	vwapInd
