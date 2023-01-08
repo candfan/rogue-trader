@@ -29,4 +29,4 @@ func TestVolumeWeightedAveragePrice_Calculate(t *testing.T) {
 
 	vwapIndicator := NewVolumeWeightedAveragePrice(series)
 
-	
+	for _, tt 
