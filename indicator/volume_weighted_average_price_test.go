@@ -31,4 +31,5 @@ func TestVolumeWeightedAveragePrice_Calculate(t *testing.T) {
 
 	for _, tt := range tests {
 		t.Run(fmt.Sprintf("index=%d", tt.index), func(t *testing.T) {
-			vwap := vwapIndicator.Calculate(tt.inde
+			vwap := vwapIndicator.Calculate(tt.index)
+			assert
