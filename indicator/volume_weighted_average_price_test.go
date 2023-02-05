@@ -32,4 +32,7 @@ func TestVolumeWeightedAveragePrice_Calculate(t *testing.T) {
 	for _, tt := range tests {
 		t.Run(fmt.Sprintf("index=%d", tt.index), func(t *testing.T) {
 			vwap := vwapIndicator.Calculate(tt.index)
-			assert.InEpsilon(t, tt.want, vwap, float64EqualityThreshol
+			assert.InEpsilon(t, tt.want, vwap, float64EqualityThreshold)
+		})
+	}
+}
