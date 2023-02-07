@@ -37,4 +37,4 @@ func TestVolumeWeightedAveragePrice_Calculate(t *testing.T) {
 	}
 }
 
-func createCandle(da
+func createCandle(date string, h
