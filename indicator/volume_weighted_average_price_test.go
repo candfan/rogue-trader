@@ -38,4 +38,5 @@ func TestVolumeWeightedAveragePrice_Calculate(t *testing.T) {
 }
 
 func createCandle(date string, high, low, close float64, volume int64) *timeseries.Candle {
-	candle := timeseries.NewCandle(parseDate(d
+	candle := timeseries.NewCandle(parseDate(date))
+	candl
