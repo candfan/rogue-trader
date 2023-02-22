@@ -41,3 +41,4 @@ func createCandle(date string, high, low, close float64, volume int64) *timeseri
 	candle := timeseries.NewCandle(parseDate(date))
 	candle.High = high
 	candle.Low = low
+	candle.Close = c
