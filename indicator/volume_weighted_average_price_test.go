@@ -42,4 +42,4 @@ func createCandle(date string, high, low, close float64, volume int64) *timeseri
 	candle.High = high
 	candle.Low = low
 	candle.Close = close
-	candle
+	candle.Volume = 
