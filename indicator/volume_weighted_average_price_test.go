@@ -44,3 +44,6 @@ func createCandle(date string, high, low, close float64, volume int64) *timeseri
 	candle.Close = close
 	candle.Volume = volume
 	return candle
+}
+
+func p
