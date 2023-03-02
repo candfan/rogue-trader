@@ -46,4 +46,5 @@ func createCandle(date string, high, low, close float64, volume int64) *timeseri
 	return candle
 }
 
-func parseDate(t string) time
+func parseDate(t string) time.Time {
+	
