@@ -51,4 +51,5 @@ func parseDate(t string) time.Time {
 	if err != nil {
 		log.Fatal("failed to parse time", err)
 	}
-	re
+	return date
+}
