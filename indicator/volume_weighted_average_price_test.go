@@ -49,4 +49,4 @@ func createCandle(date string, high, low, close float64, volume int64) *timeseri
 func parseDate(t string) time.Time {
 	date, err := time.Parse(time.RFC3339, t)
 	if err != nil {
-	
+		log.Fata
